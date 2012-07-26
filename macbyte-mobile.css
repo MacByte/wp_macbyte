@@ -1,0 +1,265 @@
+/* @override http://macbyte.twss.co.uk/wp-content/themes/macbyte/macbyte-mobile.css */
+
+#header {
+	/*text-align: center;*/
+}
+
+
+#header #site-title img {
+	height: 75px;
+}
+
+
+#main {
+	padding: 5px;
+}
+
+
+/* @group My Group */
+
+.table {
+	display: table;
+}
+
+
+.table-row {
+	display: table-row;
+}
+
+
+.table-cell {
+	display: table-cell;
+}
+
+/* @end */
+
+
+/* @group Top Navigation */
+
+.menu-container .splitter {
+	display: none;
+}
+
+
+.menu-header {
+	text-align: center;
+}
+
+
+.menu-header ul {
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+
+.menu-header li {
+	padding: 0.0625em 0;
+	width: 32%;
+}
+
+
+.menu-header li,
+.menu-header li h5 {
+	display: inline;
+}
+
+
+.menu-header li a {
+	color: #555;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 0.25em;
+	text-decoration: none;
+}
+
+
+.menu-header ul li a:hover {
+	background: #e7e7e7;
+}
+
+
+.menu-header ul li.current-menu-item a,
+.menu-header ul li.current-menu-item a:hover {
+	background: #ba1022;
+	color: #fff;
+}
+
+
+/* @end */
+
+/* @group Inline Blocks */
+
+.blockcontainer {
+	display: table;
+	margin: 0.5em 0;
+	border-top: 1px solid #999;
+}
+
+
+.inlineblock {
+	display: table-row;
+	width: 100%;
+}
+
+/* @end */
+
+
+/* @group Services */
+
+.inlineblock .service-image,
+.inlineblock .service-text {
+	border-bottom: 1px solid #999;
+	display: table-cell;
+	padding: 0.5em 0;
+}
+
+
+.inlineblock .service-image {
+	line-height: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.inlineblock .service-text {
+	padding-left: 1em;
+	text-align: left;
+}
+
+
+/*.services .service-image img {
+	height: 50px;
+}*/
+
+/* @end */
+
+
+/* @group Staff */
+
+#staff h2::after {
+	margin-top: 0;
+}
+
+
+#staff .table,
+#partners .table {
+	border-bottom: 1px solid #aaa;
+	display: inline;
+}
+
+
+#staff .table-row,
+#partners .table-row {
+	clear: both;
+	display: inline-block;
+	margin: 0;
+}
+
+
+#staff .table-cell,
+#partners .table-cell {
+	border-top: 1px solid #aaa;
+}
+
+
+#staff .dummy,
+#partners .dummy {
+	border: none;
+}
+
+
+#staff .table-cell.second,
+#partners .table-cell.second {
+	clear: both;
+}
+
+
+#staff .profile-image,
+#partners .profile-image {
+	float: left;
+	line-height: 0;
+	padding: 1em 1em 1em 0;
+}
+
+/* @end */
+
+
+table.support {
+	font-size: 0.8em;
+}
+
+
+.home-bottom.table,
+.home_bottom.table .table-row {
+	display: block;
+}
+
+
+.home-bottom.table .table-row {
+	display: block;
+}
+
+
+.home-bottom.table .table-row .table-cell {
+	clear: both;
+	display: block;
+	margin: 0;
+}
+
+
+#footer {
+	background-color: #c21f24;
+	text-align: center;
+	padding-bottom: 0.5em;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.breadcrumbs {
+	display: none;
+}
+
+
+#content img {
+	max-width: 100%;
+}
+
+
+.allForms {
+	width: 80% !important;
+}
+
+
+.allForms input,
+.allForms .ccf-tooltip-field {
+	width: 100% !important;
+}
+
+
+#footer .table {
+	width: 100%;
+}
+
+
+#footer,
+#footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#footer .table-cell {
+	font-size: 0.9em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+#footer-widgets .table-cell {
+	display: block;
+	margin: 1em 0;
+	width: 100%;
+}
+

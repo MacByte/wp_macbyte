@@ -1,0 +1,316 @@
+/* @override http://localhost/wp-macbyte/wp-content/themes/macbyte/macbyte-screen.css */
+
+/* @group Sticky Footer */
+
+* {
+	margin: 0;
+}
+
+
+html, body {
+	height: 100%;
+}
+
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+
+#footer, .push {
+	clear: both;
+}
+
+
+#footer, .push,
+#footer .table-row {
+	height: 4em;
+}
+
+/* @end */
+
+
+/* @group Layout */
+
+.colmask {
+	position: relative;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+.threecol {
+	/*border-bottom: 1px solid #444;*/
+}
+
+.threecol .left,
+.threecol .right {
+	margin: 1em 0 0;
+}
+
+.threecol .colmid {
+	float: left;
+	width: 200%;
+	margin-left: -13em;
+	position: relative;
+	right: 100%;
+}
+
+.threecol .colleft {
+	float: left;
+	width: 100%;
+	margin-left: -50%;
+	position: relative;
+	left: 26em;
+}
+
+.threecol .centerwrap {
+	float: left;
+	width: 50%;
+	position: relative;
+	right: 13em;
+}
+
+.threecol .center {
+	background: #fff;
+	position: relative;
+	left: 200%;
+	overflow: hidden;
+	margin: 1em 13em;
+}
+
+.threecol #left {
+	float: left;
+	float: right;
+	width: 11em;
+	position: relative;
+	right: 1em;
+}
+
+.threecol #right {
+	float: left;
+	float: right;
+	width: 11em;
+	margin-right: 3em;
+	position: relative;
+	left: 50%;
+}
+
+/* @end */
+
+
+/* @group TEMP: Fixed Content Width Hacks */
+
+.threecol .center {
+	margin: 1em auto;
+	width: 960px;		/* added to be fixed */
+}
+
+.threecol .left,
+.threecol .right {
+	display: none;
+}
+
+/* @end */
+
+
+.alignleft {
+	text-align: left;
+}
+
+
+.aligncenter {
+	text-align: center;
+}
+
+
+.alignright {
+	text-align: right;
+}
+
+
+/* @group Top Navigation */
+
+.menu-header {
+	border-bottom: 1px solid ;
+	/*padding: 1em;*/
+	text-align: center;
+	border-color: #b10f20;
+}
+
+
+.menu-header ul {
+	padding: 0.5em;
+}
+
+
+.menu-header ul li,
+.menu-header ul li h5 {
+	display: inline;
+}
+
+
+.menu-header ul li a {
+	color: #666;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0.5em;
+	text-decoration: none;
+}
+
+
+.menu-header ul li a:hover {
+	background: #e7e7e7;
+}
+
+
+.menu-header ul li.current-menu-item a,
+.menu-header ul li.current-menu-item a:hover {
+	background: #ba1022;
+	color: #fff;
+}
+
+/* @end */
+
+
+.table {
+	display: table;
+}
+
+
+.table-row {
+	display: table-row;
+}
+
+
+.table-cell {
+	display: table-cell;
+}
+
+
+.inlinecontainer {
+	text-align: center;
+}
+
+
+.inlineblock {
+	display: inline-block;
+}
+
+
+.services {
+	margin: 1em auto;
+	width: 780px;
+}
+
+
+.services .inlineblock {
+	width: 180px;
+	vertical-align: text-top;
+}
+
+.services .service-image {
+	line-height: 0;
+	text-align: center;
+	padding: 5px;
+	min-width: 170px;
+	width: 170px;
+}
+
+.services .service-text {
+	padding: 10px;
+	text-align: center;
+}
+
+.services .service-text strong {
+	font-weight: bold;
+}
+
+
+#latest-news .entry-excerpt {
+	color: #444;
+	font-size: 0.8em;
+	padding-left: 2em;
+}
+
+
+#staff,
+#partners {
+	margin: 1em auto;
+	width: 780px;
+}
+
+
+#staff .table-cell,
+#partners .table-cell {
+	vertical-align: top;
+}
+
+
+#staff .profile-image,
+#partners .profile-image {
+	padding: 1em;
+}
+
+
+#staff .profile-image img,
+#partners .profile-image img {
+	border: 1px solid #c21f24;
+}
+
+
+#staff .profile-text,
+#partners .profile-text {
+	width: 560px;
+}
+
+
+#contact .label {
+	color: #777;
+	padding-right: 1em;
+	text-align: right;
+}
+
+
+#contact .detail {
+	padding-bottom: 1em;
+}
+
+
+.post-content img.alignright,
+.entry-excerpt img.alignright {
+	border: 1px solid #aaa;
+	float: right;
+	padding: 5px;
+	margin: 0 0 1em 1em;
+}
+
+
+#footer {
+	background-color: #c21f24;
+}
+
+
+#footer,
+#footer a {
+	color: #fff;
+}
+
+
+#footer a {
+	text-decoration: none;
+}
+
+#footer .table {
+	width: 100%;
+}
+
+#footer .table-cell {
+	font-size: 0.9em;
+	text-align: center;
+	vertical-align: middle;
+}
